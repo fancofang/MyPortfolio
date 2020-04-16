@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9edecf77-d9b6-44db-8561-6dd580579159" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/css/indexstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/static/css/indexstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/css/style11.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/images/demo/author-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/images/demo/author-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/images/demo/author-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/images/demo/portfolio-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/images/demo/portfolio-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/images/demo/portfolio-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/images/demo/portfolio-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/images/demo/portfolio-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/images/demo/portfolio-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/images/demo/trackurent.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/images/demo/trackurent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/js/indexanimate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/static/js/indexanimate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/templates/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/static/images/other.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/static/images/other.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/view.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +82,14 @@
       <option name="presentableId" value="Default" />
       <updated>1582909042641</updated>
     </task>
+    <task id="LOCAL-00001" summary="'add one portfolio'">
+      <created>1587050620422</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587050620422</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -131,5 +117,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="'add one portfolio'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'add one portfolio'" />
   </component>
 </project>
