@@ -9,6 +9,9 @@ verify_ssl = true
 flask = "*"
 flask-bootstrap = "*"
 python-dotenv = "*"
+werkzeug = "*"
+gunicorn = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.7"
