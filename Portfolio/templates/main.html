@@ -26,11 +26,11 @@
             <kbd class="font-italic ">Technical skills:</kbd>
             <dd>{</dd>
             <dt>'back-end':</dt>
-            <dd>['Python', 'Flask', 'MySQL', 'MongoDB', 'Heroku', 'Docker', 'Nginx']</dd>
+            <dd>['Python', 'Flask', 'MySQL', 'MongoDB', 'Redis', 'Docker', 'Heroku']</dd>
             <dt>'front-end':</dt>
-            <dd>['HTML', 'CSS', 'Javascript', 'Vue.js']</dd>
+            <dd>['HTML', 'CSS', 'Javascript']</dd>
             <dt>'Other':</dt>
-            <dd>['Scrapy', 'Selenium', 'Github', 'Linux']</dd>
+            <dd>['Scrapy', 'Selenium', 'Github', 'Linux', 'Nginx']</dd>
             <dd>}</dd>
         </dl>
         <dl>
@@ -114,7 +114,10 @@
                     <figure class="effect-bubba">
                         <img src="{{ url_for('static', filename='images/other.jpg') }}" alt="img04" class="img-responsive" />
                         <figcaption>
-                            <h2>Coming Soon - Shopping</h2>
+                            <h2>BookSearch - API Demo</h2>
+                            <p>'Python', 'Flask', 'MySQL'</p>
+                            <p>'API', 'Oauth'</p>
+                            <a href="#" data-toggle="modal" data-target="#Modal-4">View more</a>
                         </figcaption>
                     </figure>
                 </div>
@@ -199,3 +202,26 @@
     </div>
 </div>
 
+<!-- Modal for portfolio item 4 -->
+<div class="modal fade" id="Modal-4" tabindex="-1" role="dialog" aria-labelledby="Modal-label-4">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="Modal-label-4">BOOK SEARCH</h4>
+            </div>
+            <div class="modal-body">
+                <img src="{{ url_for('static', filename='images/API-2.jpg') }}" alt="img04" class="img-responsive" />
+                <div class="modal-works"><span>Web Development</span><span>api</span></div>
+                <p>When I got a book database, I was thinking how I use them into my skill efficiently.</p>
+                <p>Following recruitment needs, I know I need to improve the knowledge about api and oauth.</p>
+                <p>Even though the website is a book search apidemo, it is good to support third party authentication, for example twitter, github and google.</p>
+                <p>After log in, the token is valid for one hour. And you can do book searching that depends on your permission.</p>
+                <p>All operation you can find them on documetaion page.</p>
+                <p>Click the link <a target="_blank" href="http://3.9.215.67:9999/">Book Search apidemo</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
