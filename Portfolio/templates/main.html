@@ -1,21 +1,32 @@
 <header data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">about</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">contact</a>
-                </li>
-            </ul>
+        <div class="container-fluid">
+<!--            <a class="navbar-brand" href="#"></a>-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav gap-2 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary" role="button"href="https://www.linkedin.com/in/fancofang/">My linkedin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-secondary" role="button" href="https://drive.google.com/file/d/1voqHPRdSHT3G-0mYnp_QeQZY10kgJkBw/view?usp=sharing">Resume</a>
+                    </li>
+
+                </ul>
+            </div>
         </div>
     </nav>
 </header>
@@ -25,31 +36,31 @@
         <dl>
             <kbd class="font-italic ">Technical skills:</kbd>
             <dd>{</dd>
-            <dt>'back-end':</dt>
-            <dd>['Python', 'Flask', 'MySQL', 'MongoDB', 'Redis', 'Docker', 'Heroku']</dd>
-            <dt>'front-end':</dt>
-            <dd>['HTML', 'CSS', 'Javascript']</dd>
-            <dt>'Other':</dt>
-            <dd>['Scrapy', 'Selenium', 'Github', 'Linux', 'Nginx']</dd>
+            <dt>"Back-end":</dt>
+            <dd>["Python", "Flask", "MySQL", "MongoDB", "Redis", "Celery"]</dd>
+            <dt>"Front-end":</dt>
+            <dd>["Vue", "HTML", "CSS", "Javascript"]</dd>
+            <dt>"Other":</dt>
+            <dd>["Scrapy", "Selenium", "Nginx", "Docker", "Heroku"]</dd>
             <dd>}</dd>
         </dl>
         <dl>
             <kbd class="font-italic ">Soft skills:</kbd>
             <dd>{</dd>
-            <dt>'personality':</dt>
-            <dd>['Motivated on new challenges', 'Self-organized', 'Work independently', 'Under pressure', 'Friendly attitutde']</dd>
-            <dt>'collaboration':</dt>
-            <dd>['Team player', 'Great time managment', 'Effective communication skills', 'Open-minded']</dd>
+            <dt>"Personality":</dt>
+            <dd>["Motivated on new challenges", "Self-organized", "Work independently", "Under pressure", "Friendly attitutde"]</dd>
+            <dt>"Collaboration":</dt>
+            <dd>["Team player", "Great time managment", "Effective communication skills", "Open-minded"]</dd>
             <dd>}</dd>
         </dl>
         <dl>
-            <kbd class="font-italic ">others:</kbd>
+            <kbd class="font-italic ">Others:</kbd>
             <dd>{</dd>
-            <dt>'things I love':</dt>
-            <dd>['Traveling', ' Exploring new culture', 'Photography', 'Cooking', 'Coding']</dd>
-            <dt>'language':</dt>
-            <dd>{'mother tongue': ['Mandarin', 'Cantonese'], </dd>
-            <dd>{'work language': ['English'] </dd>
+            <dt>"Things I love":</dt>
+            <dd>["Traveling", "Photography", "Cooking", "Coding"]</dd>
+            <dt>"Language":</dt>
+            <dd>{"Mother tongue": ["Mandarin", "Cantonese"], </dd>
+            <dd>{"Work language": ["English"] </dd>
             <dd>}</dd>
         </dl>
     </div>
@@ -59,9 +70,10 @@
     <div class="d-flex flex-column justify-content-center align-items-center h-100">
         <h1 class="text-center font-weight-bold text-dark">Recent work</h1>
         <p>Check out my latest web development portfolio projects.</p>
-        <div class="row row-0-gutter w-100">
+        <div class="container">
+               <div class="row g-5">
             <!-- start portfolio item1 -->
-            <div class="col-md-6 col-0-gutter">
+            <div class="col-6">
                 <div class="ot-portfolio-item">
                     <figure class="effect-bubba">
                         <img src="{{ url_for('static', filename='images/FSR-1.jpg') }}" alt="img01" class="img-responsive" />
@@ -77,7 +89,7 @@
             </div>
             <!-- end -->
             <!-- start portfolio item2 -->
-            <div class="col-md-6 col-0-gutter">
+            <div class="col-6">
                 <div class="ot-portfolio-item">
                     <figure class="effect-bubba">
                         <img src="{{ url_for('static', filename='images/TUR-1.jpg') }}" alt="img02" class="img-responsive" />
@@ -93,7 +105,7 @@
             </div>
             <!-- end -->
             <!-- start portfolio item3 -->
-            <div class="col-md-6 col-0-gutter">
+            <div class="col-6">
                 <div class="ot-portfolio-item">
                     <figure class="effect-bubba">
                         <img src="{{ url_for('static', filename='images/GWID-1.jpg') }}" alt="img03" class="img-responsive" />
@@ -109,21 +121,23 @@
             </div>
             <!-- end -->
             <!-- start portfolio item4 -->
-            <div class="col-md-6 col-0-gutter">
-                <div class="ot-portfolio-item">
-                    <figure class="effect-bubba">
-                        <img src="{{ url_for('static', filename='images/other.jpg') }}" alt="img04" class="img-responsive" />
-                        <figcaption>
-                            <h2>BookSearch - API Demo</h2>
-                            <p>'Python', 'Flask', 'MySQL'</p>
-                            <p>'API', 'Oauth'</p>
-                            <a href="#" data-toggle="modal" data-target="#Modal-4">View more</a>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
+<!--            <div class="col-md-6 col-0-gutter">-->
+<!--                <div class="ot-portfolio-item">-->
+<!--                    <figure class="effect-bubba">-->
+<!--                        <img src="{{ url_for('static', filename='images/other.jpg') }}" alt="img04" class="img-responsive" />-->
+<!--                        <figcaption>-->
+<!--                            <h2>BookSearch - API Demo</h2>-->
+<!--                            <p>'Python', 'Flask', 'MySQL'</p>-->
+<!--                            <p>'API', 'Oauth'</p>-->
+<!--                            <a href="#" data-toggle="modal" data-target="#Modal-4">View more</a>-->
+<!--                        </figcaption>-->
+<!--                    </figure>-->
+<!--                </div>-->
+<!--            </div>-->
             <!-- end -->
         </div>
+        </div>
+
     </div>
 
 </section>
@@ -134,6 +148,7 @@
         <p>If you wanna get in touch, talk to me about a project collaboration or just say hi.</p>
     </div>
 </section>
+
 
 <!-- Modal for portfolio item 1 -->
 <div class="modal fade" id="Modal-1" tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
@@ -193,7 +208,7 @@
                 <p>How can I build the game on my website? Firstly, we need 'canvas' to draw. Secondly, we need socket technology for real time broadcast.</p>
                 <p>Then, the idea of chat room came into my mind.</p>
                 <p>So why not combine them? Bringing all these features into one game, I can make the game more interactive and playful!</p>
-                <p>Click the link <a target="_blank" href="http://3.9.215.67:9000/">Guess What I Draw</a></p>
+                <p>Click the link <a target="_blank" href="http://drawsome.fun/">Guess What I Draw</a></p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -202,26 +217,26 @@
     </div>
 </div>
 
-<!-- Modal for portfolio item 4 -->
-<div class="modal fade" id="Modal-4" tabindex="-1" role="dialog" aria-labelledby="Modal-label-4">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="Modal-label-4">BOOK SEARCH</h4>
-            </div>
-            <div class="modal-body">
-                <img src="{{ url_for('static', filename='images/API-2.jpg') }}" alt="img04" class="img-responsive" />
-                <div class="modal-works"><span>Web Development</span><span>api</span></div>
-                <p>When I got a book database, I was thinking how I use them into my skill efficiently.</p>
-                <p>Following recruitment needs, I know I need to improve the knowledge about api and oauth.</p>
-                <p>Even though the website is a book search apidemo, it is good to support third party authentication, for example twitter, github and google.</p>
-                <p>After log in, the token is valid for one hour. And you can do book searching that depends on your permission.</p>
-                <p>All operation you can find them on documetaion page.</p>
-                <p>Click the link <a target="_blank" href="http://3.9.215.67:9999/">Book Search apidemo</a></p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
+<!--&lt;!&ndash; Modal for portfolio item 4 &ndash;&gt;-->
+<!--<div class="modal fade" id="Modal-4" tabindex="-1" role="dialog" aria-labelledby="Modal-label-4">-->
+<!--    <div class="modal-dialog" role="document">-->
+<!--        <div class="modal-content">-->
+<!--            <div class="modal-header">-->
+<!--                <h4 class="modal-title" id="Modal-label-4">BOOK SEARCH</h4>-->
+<!--            </div>-->
+<!--            <div class="modal-body">-->
+<!--                <img src="{{ url_for('static', filename='images/API-2.jpg') }}" alt="img04" class="img-responsive" />-->
+<!--                <div class="modal-works"><span>Web Development</span><span>api</span></div>-->
+<!--                <p>When I got a book database, I was thinking how I use them into my skill efficiently.</p>-->
+<!--                <p>Following recruitment needs, I know I need to improve the knowledge about api and oauth.</p>-->
+<!--                <p>Even though the website is a book search apidemo, it is good to support third party authentication, for example twitter, github and google.</p>-->
+<!--                <p>After log in, the token is valid for one hour. And you can do book searching that depends on your permission.</p>-->
+<!--                <p>All operation you can find them on documetaion page.</p>-->
+<!--                <p>Click the link <a target="_blank" href="http://3.9.215.67:9999/">Book Search apidemo</a></p>-->
+<!--            </div>-->
+<!--            <div class="modal-footer">-->
+<!--                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
